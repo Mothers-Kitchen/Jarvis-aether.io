@@ -1,0 +1,7 @@
+# Add CNAME file
+echo "jarvis-aether.io" > CNAME
+
+# Commit changes
+git add CNAME
+git commit -m "Add custom domain configuration"
+git push origin main
